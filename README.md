@@ -44,7 +44,7 @@ Just get your minimal mdBook lesson working for YOU to learn mdBook. You will qu
 
 - Now you have your first `sandbox` on your machine, as well as your initial `in` and backup `bk` ... all idential copies of that first `sandbox` working ... both on your machine and on GitHub ... now, with sufficient backups, you can go ahead and ***complexicate*** your mdBook life at will. 
 
-- NOW you can fork this repository ... or better yet, you should fork some other Reference text in mdBook form from the following table below, which is a forked [list of awesome mdbooks](https://github.com/softprops/awesome-mdbook) and experiment with different versions of those mdBooks by copying files from `src` directory and swapping, editing, refactoring ... in other words, *the best to* ***really*** **READ** *a book, to* ***really understand its content,*** *is to rewrite it in a manner that is more readable TO YOU and/or contains more annotations and links to supporting content you found useful.* 
+- NOW you can fork this repository ... or better yet, you should fork some other Reference text in mdBook form from the following table below, which is a forked from [@softprops](https://github.com/softprops) [list of awesome mdbooks](https://github.com/softprops/awesome-mdbook) and experiment with different versions of those mdBooks by copying files from `src` directory and swapping, editing, refactoring ... in other words, *the best to* ***really*** **READ** *a book, to* ***really understand its content,*** *is to rewrite it in a manner that is more readable TO YOU and/or contains more annotations and links to supporting content you found useful.* 
 
 # Build/Annotate/Improve Upon Your Own mdBook Bookshelf
 
