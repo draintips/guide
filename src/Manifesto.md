@@ -1,3 +1,9 @@
+*This Guide will aspire to follow the approach of Maimonides [Guide For The Perplexed](https://www.gutenberg.org/cache/epub/73584/pg73584.txt) which still serves as a model for systematically examining relationship between hard, cold, established reason and contemplation of concepts that have taken on a* ***practically magical*** *or ethereal quality, seemingly almost beyond current understanding OR something to be revealed in a future humans can barely imagine.*
+
+*Of course, this Guide is not going to cover* ***perplexing*** *troubling topics that Maimonides wrote about such as divine attributes, creation, prophecy, and the purpose of biblical commandments. Those topics are still worth exploring. Elsewhere. However, this Guide does deal with the topic of high agency in humans and achieving higher forms of agency.*
+
+*Human achievement in our current and foreseeable existences will continue to be a matter of perfecting of one's intellectual capacities. This matter of constantly* ***perfecting*** *but never being perfect or* ***"ahead of the curve"***, *is not achieved through believing the hype or imagining that new techological developments are either EVIL or somehow magically beyond what a human can understand. Instead, technology is very much understandable, but it requires thorough, rigorous, skeptical inquiry along with participation and engagement in development communities based upon practical experience gained through hands-on technological skills development.*
+
 #### WHY Must One Take Responsibility For One's Own Intelligence Gathering?
 
 ### It's About Regaining Information Autonomy.
