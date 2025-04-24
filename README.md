@@ -16,7 +16,7 @@ Just get your minimal mdBook lesson working for YOU to learn mdBook. You will qu
 
 *Do NOT begin by copying or cloning somebody's complexicated cornfuckluation.* **Even this one!!!** 
 
-***Start completely from scratch ... without cloneing or copying anything from GitHub.***
+***Start completely from scratch ... without cloning or copying anything from GitHub.***
 
 - [Install mdBook](https://rust-lang.github.io/mdBook/guide/installation.html) on your local machine, [create your own very first book with MdBook](https://rust-lang.github.io/mdBook/guide/creating.html) and get mdBook running so that you can play with your sandbox installation and book a bit ... *but do not play too much yet,* just KEEP your working sandbox book simple. Play comes later.
 
