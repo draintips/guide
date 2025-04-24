@@ -44,10 +44,11 @@ We can use AI and LLM to do lots of reading for us; we can speedread thousands o
 
 - Now you have your first sandbox and a backup of that sandbox working, both on your machine and on GitHub ... you go ahead and ***complexicate*** at will. 
 
-- Fork this repository or better yet, fork some other mdBook from the [list of awesome mdbooks](https://github.com/softprops/awesome-mdbook) and experiment with different versions of those mdBooks by copying files from `src` directory and swapping, editing, refactoring ... in other words, *the best to* ***really*** **READ** *a book, to* ***really understand its content,*** *is to rewrite it in a manner that is more readable TO YOU and/or contains more annotations and links to supporting content you found useful.* 
+- Fork this repository or better yet, fork some other mdBook from the following, which is a forked [list of awesome mdbooks](https://github.com/softprops/awesome-mdbook) and experiment with different versions of those mdBooks by copying files from `src` directory and swapping, editing, refactoring ... in other words, *the best to* ***really*** **READ** *a book, to* ***really understand its content,*** *is to rewrite it in a manner that is more readable TO YOU and/or contains more annotations and links to supporting content you found useful.* 
 
-## 📚 Bookshelf
+## Build/Annotate/Improve Upon Your Own mdBook Bookshelf
 
+In order to ***really*** **READ** Reference text that you will rely upon, fork them and then improve them for your own purposes, it's not really so much about removing errors or out-of-date material, ie these References tend to be pretty tight.  It's also not really about your own personal clarifications/simplifications, although it's fine if your want to do that for YOUR copy. It's probably more about adding annotations and notes to related content that you found while diving in to the Reference ... but mostly, your efforts to revise/refactor a Reference text are about ***really*** diving in for your own purposes and **READING** that Reference text in a more thorough manner. 
 
 | Name | Description | Contribute |
 |:----|:-----------|:-------:|
