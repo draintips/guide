@@ -8,9 +8,13 @@ There's no time like the present for starting on the process of [becoming an eve
 
 Taking greater responsibility for intelligence gathering and personal knowledge engineering necessarily involves autodidactic skills development and *continuously* re-learning how to learn.
 
-#### READERS are leaders; leaders are better at READING.
+#### READERS are leaders. Leaders are better at READING.
 
-Today's ***reading*** is a much expanded version of yesterday's *reading*. ***Reading*** now includes using and developing AI tools and LLM models to ingest and make sense of unimaginally massive amounts of text and other data. But reading still includes speedreading and skimming pages of content in seconds. It ALSO still includes DEEPLY focused reading and meditation on what was read. Whether it's AI-assisted OR developed skills in speedreading OR more intense, meditative deep reading, it's ALL *reading* -- it's a matter of time management and adapting the appropriate skill for the optimal way to *read* EVERYTHING.
+That means that leaders are better at mastering everything that READING a situation, a book, a person, a trend or anything that the word "reading" might pertain to.
+
+Today's ***reading*** is a radically expanded version of yesterday's *reading*. This year is a whole different ballgame than last year was; five years ago is becoming unrecognizable and whatever happened ten years ago now looks pretty old and dated. *Reading is WAY different than what you learned in school.*
+
+***Reading*** now includes using and developing AI tools and LLM models to ingest and make sense of unimaginally massive amounts of text and other data. But reading still includes speedreading and skimming pages of content in seconds. It ALSO still includes DEEPLY focused reading and meditation on what was read. Whether it's AI-assisted OR developed skills in speedreading OR more intense, meditative deep reading, it's ALL *reading* -- it's a matter of time management and adapting the appropriate skill for the optimal way to *read* EVERYTHING.
 
 What information technology has done is that it have given us the capability to have *read* almost everything.
 
@@ -30,7 +34,7 @@ This is why Personal Assistant Agentic Systems (PAAS) represent both ***risk*** 
 
 1. When controlled by private interests, they further concentrate information power, worth trillions in market value and social influence. These entities will fiercely protect their capacity to determine what information reaches consumers.
 
-2. When developed as personally-extensible, open-source infrastructures, PAAS can redistribute digital agency back to individuals and communities, but not unless the actually are strategically savvy about intelligence gathering.
+2. When developed as personally-extensible, open-source infrastructures, PAAS *could* redistribute digital agency back to individuals and communities, but that is not automatic and is not even possible except for self-starting autodidacts who invest in their skills to actually become strategically savvy about intelligence gathering.
 
 ## CONCRETE DEVELOPMENT PRIORITIES
 
