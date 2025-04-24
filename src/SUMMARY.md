@@ -1,8 +1,8 @@
 # Summary
 
-[Information Autonomy](Manifesto.md)
+[Intelligence Gathering](Manifesto.md)
 
-- [Intelligence Gathering](./chapter_1.md)
+- [Information Autonomy](./chapter_1.md)
     - [Philosophical Foundations](nested/sub-chapter_1.1.md)
     - [Technical Foundations](nested/sub-chapter_1.2.md)
     - [Adv Observability Enrg](nested/sub-chapter_1.3.md)
