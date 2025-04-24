@@ -8,9 +8,11 @@ Back in the old days of paper textbooks, the best way to READ a textbook was to 
 The point is worth re-iterating, for its application to mdBook ...*the very best to* ***really*** **READ** *a book, to* ***really understand its content,*** *is to rewrite it in a manner that is more readable TO YOU and/or contains more annotations and links to supporting content you found useful.*  
 
 We can use AI and LLM to do lots of reading for us; we can speedread thousands of arXiv papers and, NOW, with mdBook, we can/should READ some texts much more thoroughly than we did before. For the important References that we need, we continually improve/refactor/update upon any Reference text that we know that we are going to use and rely upon even more in the future.
-# START all thing by creating the most MINIMAL MVP of mdBook on GitHub Pages
+# The MINIMAL viable prototype of an mdBook on GitHub Pages
 
-- **KEEP your MVP simple.** Just get your minimal mdBook lesson working for YOU to learn mdBook. You will quickly be able to complexicate it for your purposes, but ***not if you start with something complex.***
+For your own sanity, **KEEP your initial MVP simple ... as simple as possible, at first.** 
+
+Just get your minimal mdBook lesson working for YOU to learn mdBook. You will quickly be able to complexicate it for your purposes, but ***not if you start with something complex.***
 
 *Do NOT begin by copying or cloning somebody's complexicated cornfuckluation.* **Even this one!!!** 
 
