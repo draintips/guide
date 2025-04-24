@@ -34,7 +34,7 @@ Just get your minimal mdBook lesson working for YOU to learn mdBook. You will qu
 
 - After a few minutes, navigate back to your new repository, go to `Settings`, then `Pages`, click on the link that follows **Your site is live at** and copy that address to the `About` settings on your repositories landing page on Github.
 
-# NOW, create a MINIMALIST backup of `in` 
+### NOW, create a MINIMALIST backup of `in` 
 
 - Create a backup ... another new completely EMPTY repository on GitHub, with simple, but approriate name, eg `bk` as in backup.
 
@@ -46,7 +46,7 @@ Just get your minimal mdBook lesson working for YOU to learn mdBook. You will qu
 
 - NOW you can fork this repository ... or better yet, you should fork some other Reference text in mdBook form from the following table below, which is a forked [list of awesome mdbooks](https://github.com/softprops/awesome-mdbook) and experiment with different versions of those mdBooks by copying files from `src` directory and swapping, editing, refactoring ... in other words, *the best to* ***really*** **READ** *a book, to* ***really understand its content,*** *is to rewrite it in a manner that is more readable TO YOU and/or contains more annotations and links to supporting content you found useful.* 
 
-## Build/Annotate/Improve Upon Your Own mdBook Bookshelf
+# Build/Annotate/Improve Upon Your Own mdBook Bookshelf
 
 In order to ***really*** **READ** Reference text that you will rely upon, fork them and then improve them for your own purposes, it's not really so much about removing errors or out-of-date material, ie these References tend to be pretty tight.  It's also not really about your own personal clarifications/simplifications, although it's fine if your want to do that for YOUR copy. It's probably more about adding annotations and notes to related content that you found while diving in to the Reference ... but mostly, your efforts to revise/refactor a Reference text are about ***really*** diving in for your own purposes and **READING** that Reference text in a more thorough manner. 
 
