@@ -18,17 +18,17 @@ Just get your minimal mdBook lesson working for YOU to learn mdBook. You will qu
 
 ***Start completely from scratch ... without cloning or copying anything from GitHub.***
 
-- [Install mdBook](https://rust-lang.github.io/mdBook/guide/installation.html) on your local machine, [create your own very first book with MdBook](https://rust-lang.github.io/mdBook/guide/creating.html) and get mdBook running so that you can play with your sandbox installation and book a bit ... *but do not play too much yet,* just KEEP your working sandbox book simple. Play comes later.
+- [Install mdBook](https://rust-lang.github.io/mdBook/guide/installation.html) on your local machine, [create your own very first book with MdBook](https://rust-lang.github.io/mdBook/guide/creating.html); you might name it `sandbox`, because that's all it is. Just get mdBook running so that you can play with your `sandbox` installation and book a bit ... *but do not play too much yet,* just KEEP your working `sandbox` book simple. Play comes later.
 
-- Create a brand new, **completely EMPTY** repository on Github, with a very simple name, like `in` for initial.
+- Create a brand new, **completely EMPTY** repository on Github, with a very simple name, like `in` as in "initial"
 
-- Clone your new EMPTY repository to your local machine.
+- Clone your new EMPTY `in` repository to your local machine.
 
-- Copy ALL of the files from your minimal sandbox to that new empty `in` initial repository
+- Copy ALL of the files from your first minimal `sandbox` to that new empty `in` initial repository
 
-- In a terminal, cd into your new `in` repository and run the `mdbook serve --open` command to assure yourself that the copied very first local machine only sandbox is operational in the new `in` repository.
+- In a terminal, cd into your new `in` repository and run the `mdbook serve --open` command to assure yourself that the copied very first local machine-only `sandbox` is now operational, and working as expected in the new `in` repository.
 
-- Commit the working code to GitHub before making any extra additions, configurations, *keep your process as simple as possible* ... and then navigate to your new `in` repository on Github and confirm the commit happened.
+- Commit the working code from `in` repository to GitHub before making any extra additions, configurations, *keep your process as simple as possible* ... and then navigate to your new `in` repository on Github and confirm the commit happened.
 
 - At your `in` repository, go to `Settings`, then `Pages`, under the **Build and Deployment** heading, select the `GitHub Actions`, then configure an **mdBook** Actions to produce a `mdbook.yml` file in the `.github/workflows` directory of your new repository.  **Do NOT add/change anything in the code suggested by GitHub at this point,** *just `Commit changes`, do not change the Commit msg, just `Commit changes`.
 
@@ -36,15 +36,15 @@ Just get your minimal mdBook lesson working for YOU to learn mdBook. You will qu
 
 # NOW, create a MINIMALIST backup of `in` 
 
-- Create a backup, new completely EMPTY repository on GitHub, with simple, but approriate name, eg `bk` by copying all of your folders from your WORKING new directory to backup sandbox, just to have a fallback position, a reference point or just in case you want to rollback to a simpler thing that worked. 
+- Create a backup ... another new completely EMPTY repository on GitHub, with simple, but approriate name, eg `bk` as in backup.
 
-- Clone your backup repository to your local maching. Then copy ALL of the files of your minimalist sandbox mdBook repository to this backup repository, then cd into `bk` directory and run the `mdbook serve --open` command to assure yourself that `bk` minimalist copy of your initial sandbox is working, the use then commit the `bk` repository with the new files back to GitHub.  
+- Clone your `bk` backup repository to your local machine. Then copy ALL of the files of your minimalist initial `in` mdBook repository to this backup `bk` repository, then cd into `bk` directory and run the `mdbook serve --open` command to assure yourself that `bk` minimalist copy of your initial sandbox is working, the use then commit the `bk` repository with the new files back to GitHub.  
 
-- Repeat the GitHub pages drill. `Settings`, then `Pages`, under the **Build and Deployment** heading, select the `GitHub Actions`, then configure an **mdBook** Actions to produce a `mdbook.yml` file in the `.github/workflows` directory of your new repository verify that it works. 
+- Repeat the GitHub pages drill as you did before for `bk`. Go to `Settings`, then `Pages`, under the **Build and Deployment** heading, select the `GitHub Actions`, then configure an **mdBook** Actions to produce a `mdbook.yml` file in the `.github/workflows` directory of your new repository verify that it works ... you should find that you have to delete the `mdbook.yml` file, which you copied from `in`. 
 
-- Now you have your first sandbox and a backup of that sandbox working, both on your machine and on GitHub ... you go ahead and ***complexicate*** at will. 
+- Now you have your first `sandbox` on your machine, as well as your initial `in` and backup `bk` ... all idential copies of that first `sandbox` working ... both on your machine and on GitHub ... now, with sufficient backups, you can go ahead and ***complexicate*** your mdBook life at will. 
 
-- Fork this repository or better yet, fork some other mdBook from the following, which is a forked [list of awesome mdbooks](https://github.com/softprops/awesome-mdbook) and experiment with different versions of those mdBooks by copying files from `src` directory and swapping, editing, refactoring ... in other words, *the best to* ***really*** **READ** *a book, to* ***really understand its content,*** *is to rewrite it in a manner that is more readable TO YOU and/or contains more annotations and links to supporting content you found useful.* 
+- NOW you can fork this repository ... or better yet, you should fork some other Reference text in mdBook form from the following table below, which is a forked [list of awesome mdbooks](https://github.com/softprops/awesome-mdbook) and experiment with different versions of those mdBooks by copying files from `src` directory and swapping, editing, refactoring ... in other words, *the best to* ***really*** **READ** *a book, to* ***really understand its content,*** *is to rewrite it in a manner that is more readable TO YOU and/or contains more annotations and links to supporting content you found useful.* 
 
 ## Build/Annotate/Improve Upon Your Own mdBook Bookshelf
 
