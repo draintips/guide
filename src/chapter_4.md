@@ -16,8 +16,9 @@
 
 ### Rust
 
-[Rust Package Mgmt and Cargo](nested/sub-chapter_4.1.md)
-[Tauri](nested/sub-chapter_4.Cargo.md)
+[**Rust Package Mgmt and Cargo**](nested/sub-chapter_4.Cargo.md)
+
+[**Tauri**](nested/sub-chapter_4.Tauri.md)
 
 ### Typescript
 
