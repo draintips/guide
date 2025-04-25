@@ -1,9 +1,12 @@
-[MdBook](https://rust-lang-nursery.GitHub.io/mdBook/) is a tool for creating and **improving** books; mdBook uses Markdown files, making mdBook the best tool to really READ important Reference content. Here's why:
+*A meta note about this repository ... and [mdBooks](https://rust-lang-nursery.GitHub.io/mdBook/) as a tool for creating and **improving** books; mdBook uses Markdown files, making mdBook the best tool to really READ important Reference content.* 
+
+Here's why:
+
 ### Humans learn best by teaching and teach best by learning.
 
-We need to READ, but we no longer need to memorize. **Our future selves will be taught by our current selves.**
+We need to READ ... and that includes using all kinds of technology to ***read*** for us ... but we no longer really need to memorize. **Our future selves will be taught by our current selves.**
 
-Back in the old days of paper textbooks, the best way to READ a textbook was to really USE that book up for your own purposes -- that meant turning it into a REFERENCE for your later self, by adding annotations particularly notes about other related texts, to add color tabs and navigational aids ... in essence, you were re-teaching your future self or maybe someone else who you loaned your REFERENCE text to.  
+Back in the old days of paper textbooks, the best way to READ a textbook was to really USE that book up for your own purposes -- that meant turning it into a REFERENCE for your later self, by adding annotations particularly notes about other related texts, to add color tabs and navigational aids ... in essence, you were re-teaching your future self or maybe someone else who you loaned your REFERENCE text to. **The physical book itself was worth a FRACTION of the value of the time you put into using it -- so, the best strategy was to USE IT UP** and get everything out of that *tool* that you could get.**
 
 The point is worth re-iterating, for its application to mdBook ...*the very best to* ***really*** **READ** *a book, to* ***really understand its content,*** *is to rewrite it in a manner that is more readable TO YOU and/or contains more annotations and links to supporting content you found useful.*  
 
