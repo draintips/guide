@@ -6623,7 +6623,8 @@ Ask your favorite AI to explain things to to you; learn to really USE agentic AI
 <h3 id="go"><a class="header" href="#go">Go</a></h3>
 <h3 id="python"><a class="header" href="#python">Python</a></h3>
 <h3 id="rust"><a class="header" href="#rust">Rust</a></h3>
-<p><a href="nested/sub-chapter_4.1.html">Rust Package Mgmt and Cargo</a></p>
+<p><a href="nested/sub-chapter_4.1.html">Rust Package Mgmt and Cargo</a>
+<a href="nested/sub-chapter_4.Cargo.html">Tauri</a></p>
 <h3 id="typescript"><a class="header" href="#typescript">Typescript</a></h3>
 <h2 id="librariesplatforms-for-llms-and-mlai"><a class="header" href="#librariesplatforms-for-llms-and-mlai">Libraries/Platforms for LLMs and ML/AI</a></h2>
 <h3 id="huggingface"><a class="header" href="#huggingface">HuggingFace</a></h3>
@@ -7116,6 +7117,445 @@ These opportunities align with Rust’s commitment to evolve while preserving it
 <p>Looking ahead, Cargo’s roadmap likely includes resolver improvements, security enhancements, and better support for non-systems programming. Community-driven tools and subcommands will continue to bridge gaps, but integrating popular features (e.g., cargo-audit) into the core could streamline the experience. As Rust grows in industries like blockchain, cloud infrastructure, and AI, Cargo’s ability to scale and adapt will be tested.</p>
 <p>Conclusion</p>
 <p>Cargo is a cornerstone of Rust’s success, offering a developer-friendly, reliable, and extensible package manager that sets a high bar for the industry. Its strengths—ease of use, deterministic builds, and ecosystem integration—have fueled Rust’s adoption, while its challenges—dependency fragility, security risks, and limited framework support—highlight areas for growth. Opportunities like enhanced resolvers, integrated security, and better documentation promise to address these issues, ensuring Cargo remains competitive. Lessons from Cargo’s development, such as the power of standardization, the importance of extensibility, and the need for proactive security, offer valuable insights for tool builders and open-source communities. For Rustaceans and newcomers alike, Cargo exemplifies how thoughtful design can simplify complex tasks. By critically examining its state and learning from its evolution, developers can build better tools and ecosystems, driving innovation in software development.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="tauri"><a class="header" href="#tauri">Tauri</a></h1>
+<p>Read the <a href="https://tauri.app/start/">Tauri documentation</a> and understand basic overvies of <a href="https://tauri.app/concept/">core concepts</a> of <a href="https://tauri.app/concept/architecture/">its architecture</a> [including the cross-platform libraries <a href="https://github.com/tauri-apps/wry">WRY for browsers</a> and <a href="https://github.com/tauri-apps/tao">TAO for OSs</a>], <a href="https://tauri.app/concept/inter-process-communication/">inter-process communication</a>, <a href="https://tauri.app/security/">security</a>, <a href="https://tauri.app/concept/process-model/">process model</a>, and <a href="https://tauri.app/concept/process-model/">how to keep your apps as small as possible</a>.</p>
+<h3 id="follow-the-devs-applying-the-technology"><a class="header" href="#follow-the-devs-applying-the-technology">Follow the Devs applying the technology</a></h3>
+<p>If you want to understand a technology like Tauri, you need to look at how people are making it work. The material below is our fork of <a href="https://github.com/tauri-apps">@Tauri-Apps</a> curated collection of <a href="https://github.com/tauri-apps/awesome-tauri">the best stuff from the Tauri ecosystem and community.</a></p>
+<ul>
+<li><a href="nested/sub-chapter_4.Tauri.html#getting-started">Getting Started Documentation</a>
+<ul>
+<li><a href="nested/sub-chapter_4.Tauri.html#guides--tutorials">Guides &amp; Tutorials</a></li>
+<li><a href="nested/sub-chapter_4.Tauri.html#templates">Templates</a></li>
+</ul>
+</li>
+<li><a href="nested/sub-chapter_4.Tauri.html#development">Development</a>
+<ul>
+<li><a href="nested/sub-chapter_4.Tauri.html#plugins">Plugins</a></li>
+<li><a href="nested/sub-chapter_4.Tauri.html#integrations">Integrations</a></li>
+<li><a href="nested/sub-chapter_4.Tauri.html#articles">Articles</a></li>
+</ul>
+</li>
+<li><a href="nested/sub-chapter_4.Tauri.html#applications">Applications</a>
+<ul>
+<li><a href="nested/sub-chapter_4.Tauri.html#audio--video">Audio &amp; Video</a></li>
+<li><a href="nested/sub-chapter_4.Tauri.html#chatgpt-clients">ChatGPT clients</a></li>
+<li><a href="nested/sub-chapter_4.Tauri.html#data">Data</a></li>
+<li><a href="nested/sub-chapter_4.Tauri.html#developer-tools">Developer tools</a></li>
+<li><a href="nested/sub-chapter_4.Tauri.html#ebook-readers">Ebook readers</a></li>
+<li><a href="nested/sub-chapter_4.Tauri.html#email--feeds">Email &amp; Feeds</a></li>
+<li><a href="nested/sub-chapter_4.Tauri.html#file-management">File management</a></li>
+<li><a href="nested/sub-chapter_4.Tauri.html#finance">Finance</a></li>
+<li><a href="nested/sub-chapter_4.Tauri.html#gaming">Gaming</a></li>
+<li><a href="nested/sub-chapter_4.Tauri.html#information">Information</a></li>
+<li><a href="nested/sub-chapter_4.Tauri.html#learning">Learning</a></li>
+<li><a href="nested/sub-chapter_4.Tauri.html#networking">Networking</a></li>
+<li><a href="nested/sub-chapter_4.Tauri.html#office--writing">Office &amp; Writing</a></li>
+<li><a href="nested/sub-chapter_4.Tauri.html#productivity">Productivity</a></li>
+<li><a href="nested/sub-chapter_4.Tauri.html#search">Search</a></li>
+<li><a href="nested/sub-chapter_4.Tauri.html#security">Security</a></li>
+<li><a href="nested/sub-chapter_4.Tauri.html#social-media">Social media</a></li>
+<li><a href="nested/sub-chapter_4.Tauri.html#utilities">Utilities</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="getting-started"><a class="header" href="#getting-started">Getting Started</a></h2>
+<h3 id="guides--tutorials"><a class="header" href="#guides--tutorials">Guides &amp; Tutorials</a></h3>
+<ul>
+<li><a href="https://v2.tauri.app/start/">Introduction</a> ![officially maintained] - Official introduction to Tauri.</li>
+<li><a href="https://v2.tauri.app/start/prerequisites/">Getting Started</a> ![officially maintained] - Official getting started with Tauri docs.</li>
+<li><a href="https://github.com/tauri-apps/create-tauri-app">create-tauri-app</a> ![officially maintained] - Rapidly scaffold your Tauri app.</li>
+<li><a href="https://docs.crabnebula.dev/guides/auto-updates-tauri">Auto-Updates with Tauri v2</a> - Setup auto-updates with Tauri and CrabNebula Cloud.</li>
+<li><a href="https://www.youtube.com/watch?v=zawhqLA7N9Y&amp;ab_channel=chrisbiscardi">Create Tauri App with React</a> ![youtube] - Chris Biscardi shows how easy it is to wire up a Rust crate with a JS module and communicate between them.</li>
+<li><a href="https://thinkgo.io/post/2023/02/publish_tauri_to_apples_app_store/">Publish to Apple's App Store</a> - Details all the steps needed to publish your Mac app to the app store. Includes a sample bash script.</li>
+<li><a href="https://youtube.com/playlist?list=PLmWYh0f8jKSjt9VC5sq2T3mFETasG2p2L">Tauri &amp; ReactJS - Creating Modern Desktop Apps</a> ![youtube] - Creating a modern desktop application with Tauri.</li>
+</ul>
+<h3 id="templates"><a class="header" href="#templates">Templates</a></h3>
+<ul>
+<li><a href="https://github.com/maximegris/angular-tauri">angular-tauri</a> - Angular with Typescript, SASS, and Hot Reload.</li>
+<li><a href="https://github.com/NicolaSpadari/nuxtor">nuxtor</a> - Nuxt 3 + Tauri 2 + UnoCSS, a starter template for building desktop apps.</li>
+<li><a href="https://github.com/sollambert/rust-full-stack-with-auth-template">rust-full-stack-with-authentication-template</a> - Yew, Tailwind CSS, Tauri, Axum, Sqlx - Starter template for full stack applications with built-in authentication.</li>
+<li><a href="https://github.com/charlesxsh/tauri-angular-boilerplate">tauri-angular-template</a> - Angular template</li>
+<li><a href="https://github.com/HuakunShen/tauri-astro-template">tauri-astro-template</a> - Astro template</li>
+<li><a href="https://github.com/RoseBlume/Bishop-Tauri-Template">tauri-bishop-template</a> - Minimized vanilla template designed for highschool students.</li>
+<li><a href="https://github.com/rome-user/tauri-clojurescript-template">tauri-clojurescript-template</a> - Minimal ClojureScript template with Shadow CLJS and React.</li>
+<li><a href="https://github.com/marc2332/tauri-deno-starter">tauri-deno-starter</a> - React template using esbuild with Deno.</li>
+<li><a href="https://gitlab.com/cristofa/tauri-leptos-template">tauri-leptos-template</a> - Leptos template</li>
+<li><a href="https://github.com/kvnxiao/tauri-nextjs-template">tauri-nextjs-template</a> - Next.js (SSG) template, with TailwindCSS, opinionated linting, and GitHub Actions preconfigured.</li>
+<li><a href="https://github.com/HuakunShen/tauri-nuxt-template">tauri-nuxt-template</a> - Nuxt3 template.</li>
+<li><a href="https://github.com/Alfredoes234/tauri-preact-rsbuild-template">tauri-preact-rsbuild-template</a> - Preact template that uses rsbuild, rather than vite.</li>
+<li><a href="https://github.com/elibroftw/modern-desktop-app-template">tauri-react-mantine-vite-template</a> - React Mantine template featuring custom titlebar for Windows, auto publish action, auto update, and more.</li>
+<li><a href="https://github.com/henrhie/tauri-react-parcel-template">tauri-react-parcel-template</a> - React template with Parcel as build tool, TypeScript and hot module replacement.</li>
+<li><a href="https://github.com/JonasKruckenberg/tauri-rescript-template">tauri-rescript-template</a> - Tauri, ReScript, and React template.</li>
+<li><a href="https://github.com/AR10Dev/tauri-solid-ts-tailwind-vite">tauri-solid-ts-tailwind-vite-template</a> - SolidJS Template preconfigured to use Vite, TypeScript, Tailwind CSS, ESLint and Prettier.</li>
+<li><a href="https://github.com/probablykasper/tauri-svelte-template">tauri-svelte-template</a> - Svelte template with cross-platform GitHub action builds, Vite, TypeScript, Svelte Preprocess, hot module replacement, ESLint and Prettier.</li>
+<li><a href="https://github.com/deid84/tauri-sveltekit-admin-template">tauri-sveltekit-template</a> - SvelteKit Admin template with cross-platform GitHub action builds, Vite, TypeScript, Svelte Preprocess, hot module replacement, ESLint and Prettier.</li>
+<li><a href="https://github.com/JonasKruckenberg/tauri-sycamore-template">tauri-sycamore-template</a> - Tauri and Sycamore template.</li>
+<li><a href="https://github.com/Uninen/tauri-vue-template">tauri-vue-template</a> - Vue template with TypeScript, Vite + HMR, Vitest, Tailwind CSS, ESLint, and GitHub Actions.</li>
+<li><a href="https://github.com/skymen/tauri-vue-template">tauri-vue-template-2</a> - Another vue template with Javascript, Vite, Pinia, Vue Router and Github Actions.</li>
+<li><a href="https://bitbucket.org/ftegtmeyer/tauri-yew-stopwatch/">tauri-yew-example</a> - Simple stopwatch with Yew using commands and Tauri events.</li>
+<li><a href="https://github.com/rgilsimoes/Tauronic/">tauronic</a> - Tauri template for hybrid Apps using Ionic components in React flavour.</li>
+</ul>
+<h2 id="development"><a class="header" href="#development">Development</a></h2>
+<h3 id="plugins"><a class="header" href="#plugins">Plugins</a></h3>
+<ul>
+<li><a href="https://github.com/tauri-apps/plugins-workspace">Official Plugins</a> ![officially maintained] - This repository contains all the plugins maintained by the Tauri team. This includes plugins for NFC, logging, notifications, and more.</li>
+<li><a href="https://github.com/tauri-apps/window-vibrancy">window-vibrancy</a> ![officially maintained] - Make your windows vibrant (v1 only - added to Tauri in v2).</li>
+<li><a href="https://github.com/tauri-apps/window-shadows">window-shadows</a> ![officially maintained] - Add native shadows to your windows in Tauri (v1 only - added to Tauri in v2).</li>
+<li><a href="https://github.com/MnlPhlp/tauri-plugin-blec">tauri-plugin-blec</a> - Cross platform Bluetooth Low Energy client based on <code>btleplug</code>.</li>
+<li><a href="https://github.com/smokingplaya/tauri-plugin-drpc">tauri-plugin-drpc</a> - Discord RPC support</li>
+<li><a href="https://gitlab.com/cristofa/tauri-plugin-keep-screen-on">tauri-plugin-keep-screen-on</a> - Disable screen timeout on Android and iOS.</li>
+<li><a href="https://github.com/JonasKruckenberg/tauri-plugin-graphql">tauri-plugin-graphql</a> - Type-safe IPC for Tauri using GraphQL.</li>
+<li><a href="https://github.com/timfish/sentry-tauri">sentry-tauri</a> - Capture JavaScript errors, Rust panics and native crash minidumps to Sentry.</li>
+<li><a href="https://github.com/aptabase/tauri-plugin-aptabase">tauri-plugin-aptabase</a> - Privacy-first and minimalist analytics for desktop and mobile apps.</li>
+<li><a href="https://github.com/CrossCopy/tauri-plugin-clipboard">tauri-plugin-clipboard</a> - Clipboard plugin for reading/writing clipboard text/image/html/rtf/files, and monitoring clipboard update.</li>
+<li><a href="https://github.com/MatsDK/TauRPC">taurpc</a> - Typesafe IPC wrapper for Tauri commands and events.</li>
+<li><a href="https://github.com/c2r0b/tauri-plugin-context-menu">tauri-plugin-context-menu</a> - Native context menu.</li>
+<li><a href="https://github.com/ayangweb/tauri-plugin-fs-pro">tauri-plugin-fs-pro</a> - Extended with additional methods for files and directories.</li>
+<li><a href="https://github.com/ayangweb/tauri-plugin-macos-permissions">tauri-plugin-macos-permissions</a> - Support for checking and requesting macOS system permissions.</li>
+<li><a href="https://github.com/HuakunShen/tauri-plugin-network">tauri-plugin-network</a> - Tools for reading network information and scanning network.</li>
+<li><a href="https://github.com/ferreira-tb/tauri-store/tree/main/packages/plugin-pinia">tauri-plugin-pinia</a> - Persistent Pinia stores for Vue.</li>
+<li><a href="https://github.com/ferreira-tb/tauri-plugin-prevent-default">tauri-plugin-prevent-default</a> - Disable default browser shortcuts.</li>
+<li><a href="https://github.com/marcomq/tauri-plugin-python/">tauri-plugin-python</a> - Use python in your backend.</li>
+<li><a href="https://github.com/ayangweb/tauri-plugin-screenshots">tauri-plugin-screenshots</a> - Get screenshots of windows and monitors.</li>
+<li><a href="https://github.com/deid84/tauri-plugin-serialport">tauri-plugin-serialport</a> - Cross-compatible serialport communication tool.</li>
+<li><a href="https://github.com/s00d/tauri-plugin-serialplugin">tauri-plugin-serialplugin</a> - Cross-compatible serialport communication tool for tauri 2.</li>
+<li><a href="https://github.com/buildyourwebapp/tauri-plugin-sharesheet">tauri-plugin-sharesheet</a> - Share content to other apps via the Android Sharesheet or iOS Share Pane.</li>
+<li><a href="https://github.com/ferreira-tb/tauri-store/tree/main/packages/plugin-svelte">tauri-plugin-svelte</a> - Persistent Svelte stores.</li>
+<li><a href="https://github.com/HuakunShen/tauri-plugin-system-info">tauri-plugin-system-info</a> - Detailed system information.</li>
+<li><a href="https://github.com/wyhaya/tauri-plugin-theme">tauri-plugin-theme</a> - Dynamically change Tauri App theme.</li>
+<li><a href="https://github.com/ahkohd/tauri-awesome-rpc">tauri-awesome-rpc</a> - Custom invoke system that leverages WebSocket.</li>
+<li><a href="https://github.com/ahkohd/tauri-nspanel">tauri-nspanel</a> - Convert a window to panel.</li>
+<li><a href="https://github.com/pevers/tauri-plugin-nosleep/">tauri-plugin-nosleep</a> - Block the power save functionality in the OS.</li>
+<li><a href="https://github.com/kuyoonjo/tauri-plugin-udp">tauri-plugin-udp</a> - UDP socket support.</li>
+<li><a href="https://github.com/kuyoonjo/tauri-plugin-tcp">tauri-plugin-tcp</a> - TCP socket support.</li>
+<li><a href="https://github.com/kuyoonjo/tauri-plugin-mqtt">tauri-plugin-mqtt</a> - MQTT client support.</li>
+<li><a href="https://github.com/ecmel/tauri-plugin-view">tauri-plugin-view</a> - View and share files on mobile.</li>
+</ul>
+<h3 id="integrations"><a class="header" href="#integrations">Integrations</a></h3>
+<ul>
+<li><a href="https://github.com/astrodon/astrodon">Astrodon</a> - Make Tauri desktop apps with Deno.</li>
+<li><a href="https://github.com/typed-sigterm/deno-in-tauri">Deno in Tauri</a> - Run JS/TS code with Deno Core Engine, in Tauri apps.</li>
+<li><a href="https://github.com/kunkunsh/kkrpc">kkrpc</a> - Seamless RPC communication between a Tauri app and node/deno/bun processes, just like Electron.</li>
+<li><a href="https://github.com/oscartbeaumont/tauri-specta">Tauri Specta</a> - Completely typesafe Tauri commands.</li>
+<li><a href="https://git.kaki87.net/KaKi87/axios-tauri-adapter">axios-tauri-adapter</a> - <code>axios</code> adapter for the <code>@tauri-apps/api/http</code> module.</li>
+<li><a href="https://github.com/persiliao/axios-tauri-api-adapter">axios-tauri-api-adapter</a> - Makes it easy to use Axios in Tauri, <code>axios</code> adapter for the <code>@tauri-apps/api/http</code> module.</li>
+<li><a href="https://codeberg.org/crapsilon/ngx-tauri">ngx-tauri</a> - Small lib to wrap around functions from tauri modules, to integrate easier with Angular.</li>
+<li><a href="https://github.com/probablykasper/svelte-tauri-filedrop">svelte-tauri-filedrop</a> - File drop handling component for Svelte.</li>
+<li><a href="https://github.com/ahkohd/tauri-macos-menubar-app-example">tauri-macos-menubar-app-example</a> - Example macOS Menubar app project.</li>
+<li><a href="https://github.com/ahkohd/tauri-macos-spotlight-example">tauri-macos-spotlight-example</a> - Example macOS Spotlight app project.</li>
+<li><a href="https://github.com/KilleenCode/tauri-update-cloudflare">tauri-update-cloudflare</a> - One-click deploy a Tauri Update Server to Cloudflare.</li>
+<li><a href="https://git.kaki87.net/KaKi87/tauri-update-server">tauri-update-server</a> - Automatically interface the Tauri updater with git repository releases.</li>
+<li><a href="https://github.com/amrbashir/vite-plugin-tauri">vite-plugin-tauri</a> - Integrate Tauri in a Vite project to build cross-platform apps.</li>
+</ul>
+<h3 id="articles"><a class="header" href="#articles">Articles</a></h3>
+<ul>
+<li><a href="https://medium.com/p/6f90de5b098">Getting Started Using Tauri Mobile</a> ![paid] - Ed Rutherford outlines how to create a mobile app with Tauri.</li>
+<li><a href="https://blog.moonguard.dev/how-to-use-local-sqlite-database-with-tauri">How to use local SQLite database with Tauri and Rust</a> - Guide to setup and use SQLite database with Tauri and Rust.</li>
+<li><a href="https://blog.moonguard.dev/manage-state-with-tauri">Managing State in Desktop Applications with Rust and Tauri</a> - How to share and manage any kind of state globally in Tauri apps.</li>
+<li><a href="https://blog.moonguard.dev/setting-up-actix-in-tauri">Setting up Actix Web in a Tauri App</a> - How to setup a HTTP server with Tauri and Actix Web.</li>
+<li><a href="https://rfdonnelly.github.io/posts/tauri-async-rust-process/">Tauri's async process</a> - Rob Donnelly dives deep into Async with Tauri.</li>
+</ul>
+<h2 id="applications"><a class="header" href="#applications">Applications</a></h2>
+<h3 id="audio--video"><a class="header" href="#audio--video">Audio &amp; Video</a></h3>
+<ul>
+<li><a href="https://github.com/ilyaly/ascapes-mixer">Ascapes Mixer</a> - Audio mixer with three dedicated players for music, ambience and SFX for TTRPG sessions.</li>
+<li><a href="https://github.com/CapSoftware/cap">Cap</a> - The open-source Loom alternative. Beautiful, shareable screen recordings.</li>
+<li><a href="https://github.com/n0vella/cardo">Cardo</a> - Podcast player with integrated search and management of subscriptions.</li>
+<li><a href="https://github.com/codeforreal1/compressO">Compresso</a> - Cross-platform video compression app powered by FFmpeg.</li>
+<li><a href="https://github.com/mmpneo/curses">Curses</a> - Speech-to-Text and Text-to-Speech captions for OBS, VRChat, Twitch chat and more.</li>
+<li><a href="https://github.com/lzdyes/douyin-downloader">Douyin Downloader</a> - Cross-platform douyin video downloader.</li>
+<li><a href="https://github.com/idootop/feiyu-player">Feiyu Player</a> - Cross-platform online video player where beauty meets functionality.</li>
+<li><a href="https://hypetrigger.io/">Hypetrigger</a> ![closed source] - Detect highlight clips in video with FFMPEG + Tensorflow on the GPU.</li>
+<li><a href="https://github.com/fastrepl/hyprnote">Hyprnote</a> - AI notepad for meetings. Local-first and extensible.</li>
+<li><a href="https://github.com/jellyfin/jellyfin-vue">Jellyfin Vue</a> - GUI client for a Jellyfin server based on Vue.js and Tauri.</li>
+<li><a href="https://github.com/meel-hd/lofi-engine">Lofi Engine</a> - Generate Lo-Fi music on the go and locally.</li>
+<li><a href="https://github.com/Trivernis/mediarepo">mediarepo</a> - Tag-based media management application.</li>
+<li><a href="https://github.com/probablykasper/mr-tagger">Mr Tagger</a> - Music file tagging app.</li>
+<li><a href="https://github.com/basharovV/musicat">Musicat</a> - Sleek desktop music player and tagger for offline music.</li>
+<li><a href="https://github.com/louis030195/screen-pipe">screenpipe</a> - Build AI apps based on all your screens &amp; mics context.</li>
+<li><a href="https://github.com/LatentDream/watson.ai">Watson.ai</a> - Easily record and extract the most important information from your meetings.</li>
+<li><a href="https://github.com/xgetter-team/xgetter">XGetter</a> ![closed source]- Cross-platform GUI to download videos and audio from Youtube, Facebook, X(Twitter), Instagram, Tiktok and more.</li>
+<li><a href="https://github.com/gaeljacquin/yt-dlp-gui">yt-dlp GUI</a> - Cross-platform GUI client for the <code>yt-dlp</code> command-line audio/video downloader.</li>
+</ul>
+<h3 id="chatgpt-clients"><a class="header" href="#chatgpt-clients">ChatGPT clients</a></h3>
+<ul>
+<li><a href="https://github.com/lencx/ChatGPT">ChatGPT</a> - Cross-platform ChatGPT desktop application.</li>
+<li><a href="https://github.com/Synaptrix/ChatGPT-Desktop">ChatGPT-Desktop</a> - Cross-platform productivity ChatGPT assistant launcher.</li>
+<li><a href="https://github.com/0xfrankz/Kaas">Kaas</a> - Cross-platform desktop LLM client for OpenAI ChatGPT, Anthropic Claude, Microsoft Azure and more, with a focus on privacy and security.</li>
+<li><a href="https://github.com/taecontrol/orion">Orion</a> - Cross-platform app that lets you create multiple AI assistants with specific goals powered with ChatGPT.</li>
+<li><a href="https://github.com/dubisdev/quickgpt">QuickGPT</a> - Lightweight AI assistant for Windows.</li>
+<li><a href="https://github.com/rajatkulkarni95/yack">Yack</a> - Spotlight like app for interfacing with GPT APIs.</li>
+</ul>
+<h3 id="data"><a class="header" href="#data">Data</a></h3>
+<ul>
+<li><a href="https://github.com/matthias-stemmler/annimate">Annimate</a> - Convenient export of query results from the ANNIS system for linguistic corpora.</li>
+<li><a href="https://github.com/fuyoo/bs-redis-desktop-client">BS Redis Desktop Client</a> - The Best Surprise Redis Desktop Client.</li>
+<li><a href="https://dataflare.app">Dataflare</a> ![closed source] ![paid] - Simple and elegant database manager.</li>
+<li><a href="https://github.com/geek-fun/dockit">DocKit</a> - GUI client for NoSQL databases such as elasticsearch, OpenSearch, etc.</li>
+<li><a href="https://github.com/l1xnan/duckling">Duckling</a> - Lightweight and fast viewer for csv/parquet files and databases such as DuckDB, SQLite, PostgreSQL, MySQL, Clickhouse, etc.</li>
+<li><a href="https://elasticvue.com/">Elasticvue</a> - Free and open-source Elasticsearch GUI</li>
+<li><a href="https://noirdb.dev">Noir</a> - Keyboard-driven database management client.</li>
+<li><a href="https://pgmagic.app/?ref=awesometauri">pgMagic🪄</a> ![closed source] ![paid] - GUI client to talk to Postgres in SQL or with natural language.</li>
+<li><a href="https://qsvpro.dathere.com">qsv pro</a> ![closed source] ![paid] - Explore spreadsheet data including CSV in interactive data tables with generated metadata and a node editor based on the <code>qsv</code> CLI.</li>
+<li><a href="https://rcloneui.com">Rclone UI</a> - The cross-platform desktop GUI for <strong><code>rclone</code></strong> &amp; S3.</li>
+<li><a href="https://smoothcsv.com/">SmoothCSV</a> ![closed source] - Powerful and intuitive tool for editing CSV files with spreadsheet-like interface.</li>
+</ul>
+<h3 id="developer-tools"><a class="header" href="#developer-tools">Developer tools</a></h3>
+<ul>
+<li><a href="https://github.com/ahqsoftwares/tauri-ahq-store">AHQ Store</a> - Publish, Update and Install apps to the Windows-specific AHQ Store.</li>
+<li><a href="https://github.com/zenoxs/tauri-appcenter-companion">AppCenter Companion</a> - Regroup, build and track your <code>VS App Center</code> apps.</li>
+<li><a href="https://github.com/francesco-gaglione/AppHub">AppHub</a> - Streamlines .appImage package installation, management, and uninstallation through an intuitive Linux desktop interface.</li>
+<li><a href="https://aptakube.com/">Aptakube</a> ![closed source] - Multi-cluster Kubernetes UI.</li>
+<li><a href="https://github.com/persiliao/brew-services-manage">Brew Services Manage</a>![closed source] macOS Menu Bar application for managing Homebrew services.</li>
+<li><a href="https://clawsapp.com/">claws</a> ![closed source] - Visual interface for the AWS CLI.</li>
+<li><a href="https://crabnebula.dev/devtools">CrabNebula DevTools</a> - Visual tool for understanding your app. Optimize the development process with easy debugging and profiling.</li>
+<li><a href="https://crabnebula.dev/devtools">CrabNebula DevTools Premium</a> ![closed source] ![paid] - Optimize the development process with easy debugging and profiling. Debug the Rust portion of your app with the same comfort as JavaScript!</li>
+<li><a href="https://www.dev-box.app/">DevBox</a> ![closed source] - Many useful tools for developers, like generators, viewers, converters, etc.</li>
+<li><a href="https://github.com/HuakunShen/devclean">DevClean</a> - Clean up development environment with ease.</li>
+<li><a href="https://github.com/fosslife/devtools-x">DevTools-X</a> - Collection of 30+ cross platform development utilities.</li>
+<li><a href="https://github.com/egoist/dropcode">Dropcode</a> - Simple and lightweight code snippet manager.</li>
+<li><a href="https://github.com/zsmatrix62/echoo-app">Echoo</a> - Offline/Online utilities for developers on MacOS &amp; Windows.</li>
+<li><a href="https://gitbutler.com">GitButler</a> - GitButler is a new Source Code Management system.</li>
+<li><a href="https://github.com/colinlienard/gitlight">GitLight</a> - GitHub &amp; GitLab notifications on your desktop.</li>
+<li><a href="https://www.jet-pilot.app">JET Pilot</a> - Kubernetes desktop client that focuses on less clutter, speed and good looks.</li>
+<li><a href="https://hoppscotch.com/download">Hoppscotch</a> ![closed source] - Trusted by millions of developers to build, test and share APIs.</li>
+<li><a href="https://github.com/keadex/keadex">Keadex Mina</a> - Open Source, serverless IDE to easily code and organize at a scale C4 model diagrams.</li>
+<li><a href="https://github.com/hcavarsan/kftray">KFtray</a> - A tray application that manages port forwarding in Kubernetes.</li>
+<li><a href="https://github.com/alyalin/PraccJS">PraccJS</a> - Lets you practice JavaScript with real-time code execution.</li>
+<li><a href="https://github.com/kuyoonjo/nda">nda</a> - Network Debug Assistant - UDP, TCP, Websocket, SocketIO, MQTT</li>
+<li><a href="https://ngroker.com">Ngroker</a> ![closed source] ![paid] - 🆖ngrok gui client.</li>
+<li><a href="https://github.com/Web3-Builders-Alliance/soda">Soda</a> - Generate source code from an IDL.</li>
+<li><a href="https://github.com/tw93/Pake">Pake</a> - Turn any webpage into a desktop app with Rust with ease.</li>
+<li><a href="https://github.com/Ironclad/rivet">Rivet</a> - Visual programming environment for creating AI features and agents.</li>
+<li><a href="https://tablex-tan.vercel.app/">TableX</a> - Table viewer for modern developers</li>
+<li><a href="https://github.com/dedSyn4ps3/tauri-mobile-test">Tauri Mobile Test</a> - Create and build cross-platform mobile applications.</li>
+<li><a href="https://testfully.io/">Testfully</a> ![closed source] ![paid] - Offline API Client &amp; Testing tool.</li>
+<li><a href="https://github.com/Verbcode/verbcode-release">verbcode</a> ![closed source] - Simplify your localization journey.</li>
+<li><a href="https://github.com/sandercox/worktree-status/">Worktree Status</a> - Get git repo status in your macOS MenuBar or Windows notification area.</li>
+<li><a href="https://yaak.app">Yaak</a> - Organize and execute REST, GraphQL, and gRPC requests.</li>
+</ul>
+<h3 id="ebook-readers"><a class="header" href="#ebook-readers">Ebook readers</a></h3>
+<ul>
+<li><a href="https://github.com/btpf/Alexandria">Alexandria</a> - Minimalistic cross-platform eBook reader.</li>
+<li><a href="https://janereader.com">Jane Reader</a> ![closed source] - Modern and distraction-free epub reader.</li>
+<li><a href="https://github.com/chrox/readest">Readest</a> - Modern and feature-rich ebook reader designed for avid readers.</li>
+</ul>
+<h3 id="email--feeds"><a class="header" href="#email--feeds">Email &amp; Feeds</a></h3>
+<ul>
+<li><a href="https://alduin.stouder.io/">Alduin</a> - Alduin is a free and open source RSS, Atom and JSON feed reader that allows you to keep track of your favorite websites.</li>
+<li><a href="https://github.com/chezhe/aleph">Aleph</a> - Aleph is an RSS reader &amp; podcast client.</li>
+<li><a href="https://github.com/KM8Oz/BULKUS">BULKUS</a> - Email validation software.</li>
+<li><a href="https://github.com/zhanglun/lettura">Lettura</a> - Open-source feed reader for macOS.</li>
+<li><a href="https://github.com/mdSilo/mdSilo-app">mdsilo Desktop</a> - Feed reader and knowledge base.</li>
+</ul>
+<h3 id="file-management"><a class="header" href="#file-management">File management</a></h3>
+<ul>
+<li><a href="https://github.com/shixinhuang99/czkawka-tauri">CzkawkaTauri</a> - Multi functional app to find duplicates, empty folders, similar images etc.</li>
+<li><a href="https://github.com/enassi/enassi">enassi</a> - Encryption assistant that encrypts and stores your notes and files.</li>
+<li><a href="https://github.com/HuakunShen/ezup">EzUp</a> - File and Image uploader. Designed for blog writing and note taking.</li>
+<li><a href="https://github.com/naaive/orange">Orange</a> - Cross-platform file search engine that can quickly locate files or folders based on keywords.</li>
+<li><a href="https://payload.app/">Payload</a> ![closed source] - Drag &amp; drop file transfers over local networks and online.</li>
+<li><a href="https://github.com/spacedriveapp/spacedrive">Spacedrive</a> - A file explorer from the future.</li>
+<li><a href="https://github.com/adileo/squirreldisk">SquirrelDisk</a> - Beautiful cross-platform disk usage analysis tool.</li>
+<li><a href="https://github.com/probablykasper/time-machine-inspector">Time Machine Inspector</a> - Find out what's taking up your Time Machine backup space.</li>
+<li><a href="https://github.com/kimlimjustin/xplorer">Xplorer</a> - Customizable, modern and cross-platform File Explorer.</li>
+</ul>
+<h3 id="finance"><a class="header" href="#finance">Finance</a></h3>
+<ul>
+<li><a href="https://github.com/Orbitale/Compotes">Compotes</a> - Local bank account operations storage to vizualize them as graphs and customize them with rules and tags for better filtering.</li>
+<li><a href="https://github.com/Rabbit-Company/CryptoBal-Desktop">CryptoBal</a> - Desktop application for monitoring your crypto assets.</li>
+<li><a href="https://github.com/matthias-wright/ghorbu-wallet">Ghorbu Wallet</a> - Cross-platform desktop HD wallet for Bitcoin.</li>
+<li><a href="https://github.com/nymtech/nym/tree/develop/nym-wallet">nym-wallet</a> - The Nym desktop wallet enables you to use the Nym network and take advantage of its key capabilities.</li>
+<li><a href="https://github.com/ustaxes/ustaxes">UsTaxes</a> - Free, private, open-source US tax filings.</li>
+<li><a href="https://github.com/AbdelilahOu/Mahalli-tauri">Mahalli</a> - Local first inventory and invoicing management app.</li>
+<li><a href="https://wealthfolio.app">Wealthfolio</a> - Simple, open-source desktop portfolio tracker that keeps your financial data safe on your computer.</li>
+</ul>
+<h3 id="gaming"><a class="header" href="#gaming">Gaming</a></h3>
+<ul>
+<li><a href="https://github.com/wearrrrr/9Launcher">9Launcher</a> - Modern Cross-platform launcher for Touhou Project Games.</li>
+<li><a href="https://github.com/Tnze/ffxiv-best-craft">BestCraft</a> - Crafting simulator with solver algorithms for Final Fantasy XIV(FF14).</li>
+<li><a href="https://github.com/zelytra/BetterFleet">BetterFleet</a> - Help players of Sea of Thieves create an alliance server.</li>
+<li><a href="https://clear.adithya.zip">clear</a> - Clean and minimalist video game library manager and launcher.</li>
+<li><a href="https://github.com/philipborg/CubeShuffle">CubeShuffle</a> - Card game shuffling utility.</li>
+<li><a href="https://github.com/franciscoBSalgueiro/en-croissant">En Croissant</a> - Chess database and game analysis app.</li>
+<li><a href="https://github.com/fishfight/FishLauncher">FishLauncher</a> - Cross-platform launcher for <code>Fish Fight</code>.</li>
+<li><a href="https://github.com/Kesomannen/gale">Gale</a> - Mod manager for many games on <code>Thunderstore</code>.</li>
+<li><a href="https://github.com/modrinth/code/blob/main/apps/app">Modrinth App</a> - Cross-platform launcher for <code>Minecraft</code> with mod management.</li>
+<li><a href="https://github.com/open-goal/launcher">OpenGOAL</a> - Cross-platform installer, mod-manager and launcher for <code>OpenGOAL</code>; the reverse engineered PC ports of the Jak and Daxter series.</li>
+<li><a href="https://github.com/ow-mods/ow-mod-man">Outer Wilds Mod Manager</a> - Cross-platform mod manager for <code>Outer Wilds</code>.</li>
+<li><a href="https://github.com/Raphiiko/OyasumiVR">OyasumiVR</a> - Software that helps you sleep in virtual reality, for use with SteamVR, VRChat, and more.</li>
+<li><a href="https://github.com/raicuparta/rai-pal">Rai Pal</a> - Manager for universal mods such as <code>UEVR</code> and <code>UUVR</code>.</li>
+<li><a href="https://github.com/Gawdl3y/Resolute">Resolute</a> - User-friendly, cross-platform mod manager for the game Resonite.</li>
+<li><a href="https://github.com/JMBeresford/retrom">Retrom</a> - Private cloud game library distribution server + frontend/launcher.</li>
+<li><a href="https://github.com/jsnli/Samira">Samira</a> - Steam achievement manager for Linux.</li>
+<li><a href="https://github.com/Tormak9970/Steam-Art-Manager">Steam Art Manager</a> - Tool for customizing the art of your Steam games.</li>
+<li><a href="https://github.com/jamessizeland/tauri-chess">Tauri Chess</a> - Implementation of Chess, logic in Rust and visualization in React.</li>
+<li><a href="https://github.com/BTMuli/TeyvatGuide">Teyvat Guide</a> - Game Tool for Genshin Impact player.</li>
+<li><a href="https://github.com/mrquantumoff/quadrant/">Quadrant</a> - Tool for managing Minecraft mods and modpacks with the ability to use Modrinth and CurseForge.</li>
+</ul>
+<h3 id="information"><a class="header" href="#information">Information</a></h3>
+<ul>
+<li><a href="https://github.com/Levminer/cores">Cores</a> ![paid] - Modern hardware monitor with remote monitoring.</li>
+<li><a href="https://github.com/breadthe/seismic">Seismic</a> - Taskbar app for USGS earthquake tracking.</li>
+<li><a href="https://github.com/awkj/stockman">Stockman</a> - Display stock info on mac menubar.</li>
+<li><a href="https://github.com/lifecoder1988/tauri-watch-coin">Watchcoin</a> - Display cypto price on OS menubar without a window.</li>
+</ul>
+<h3 id="learning"><a class="header" href="#learning">Learning</a></h3>
+<ul>
+<li><a href="https://github.com/meel-hd/japanese">Japanese</a> - Learn Japanese Hiragana and Katakana. Memorize, write, pronounce, and test your knowledge.</li>
+<li><a href="https://github.com/oguzkaganeren/manjaro-starter">Manjaro Starter</a> - Documentation and support app for new Manjaro users.</li>
+<li><a href="https://github.com/ZaneH/piano-trainer">Piano Trainer</a> - Practice piano chords, scales, and more using your MIDI keyboard.</li>
+<li><a href="https://github.com/hiltontj/solars">Solars</a> - Visualize the planets of our solar system.</li>
+<li><a href="https://github.com/syre-data/syre">Syre</a> - Scientific data assistant.</li>
+<li><a href="https://github.com/Roseblume/Rosary">Rosary</a> - Study Christianity.</li>
+</ul>
+<h3 id="networking"><a class="header" href="#networking">Networking</a></h3>
+<ul>
+<li><a href="https://github.com/clash-verge-rev/clash-verge-rev">Clash Verge Rev</a> - Continuation of Clash Verge, a rule-based proxy.</li>
+<li><a href="https://github.com/vicanso/cyberapi">CyberAPI</a> - API tool client for developer.</li>
+<li><a href="https://github.com/jexpe-apps/jexpe">Jexpe</a> - Cross-platform, open source SSH and SFTP client that makes connecting to your remote servers easy.</li>
+<li><a href="https://github.com/samirdjelal/mail-dev">Mail-Dev</a> - Cross-platform, local SMTP server for email testing/debugging.</li>
+<li><a href="https://github.com/hrzlgnm/mdns-browser">mDNS-Browser</a> - Cross-platform mDNS browser app for discovering network services using mDNS.</li>
+<li><a href="https://github.com/nhexirc/nhex">Nhex</a> - Next-generation IRC client inspired by HexChat.</li>
+<li><a href="https://github.com/rustdesk/rustdesk-server">RustDesk</a> - Self-hosted server for RustDesk, an open source remote desktop.</li>
+<li><a href="https://github.com/thewh1teagle/RustDuck">RustDuck</a> - Cross platform dynamic DNS updater for duckdns.org.</li>
+<li><a href="https://github.com/TheBlindM/T-Shell">T-Shell</a> - An open-source SSH, SFTP intelligent command line terminal application.</li>
+<li><a href="https://github.com/TunnlTo/desktop-app">TunnlTo</a> - Windows WireGuard VPN client built for split tunneling.</li>
+<li><a href="https://github.com/upvpn/upvpn-app">UpVPN</a> - WireGuard VPN client for Linux, macOS, and Windows.</li>
+<li><a href="https://github.com/windht/watcher">Watcher</a> - API manager built for a easier use to manage and collaborate.</li>
+<li><a href="https://github.com/stefanodevenuto/wirefish">Wirefish</a> - Cross-platform packet sniffer and analyzer.</li>
+</ul>
+<h3 id="office--writing"><a class="header" href="#office--writing">Office &amp; Writing</a></h3>
+<ul>
+<li><a href="https://github.com/imrofayel/fylepad/">fylepad</a> - Notepad with powerful rich-text editing, built with Vue &amp; Tauri.</li>
+<li><a href="https://github.com/samirdjelal/bidirectional">Bidirectional</a> - Write Arabic text in apps that don't support bidirectional text.</li>
+<li><a href="https://github.com/FPurchess/blank">Blank</a> - Minimalistic, opinionated markdown editor made for writing.</li>
+<li><a href="https://enso.sonnet.io">Ensō</a> ![closed source] - Write now, edit later. Ensō is a writing tool that helps you enter a state of flow.</li>
+<li><a href="https://github.com/BigIskander/Handwriting-keyboard-for-Linux-tesseract">Handwriting keyboard</a> - Handwriting keyboard for Linux X11 desktop environment.</li>
+<li><a href="https://github.com/ahmedkapro/journalv">JournalV</a> - Journaling app for your days and dreams.</li>
+<li><a href="https://github.com/drl990114/MarkFlowy">MarkFlowy</a> - Modern markdown editor application with built-in ChatGPT extension.</li>
+<li><a href="https://github.com/kuyoonjo/md-viewer">MD Viewer</a> - Cross-platform markdown viewer.</li>
+<li><a href="https://github.com/maqi1520/mdx-notes/tree/tauri-app">MDX Notes</a> - Versatile WeChat typesetting editor and cross-platform Markdown note-taking software.</li>
+<li><a href="https://noor.to/">Noor</a> ![closed source] - Chat app for high-performance teams. Designed for uninterrupted deep work and rapid collaboration.</li>
+<li><a href="https://github.com/Muhammed-Rahif/Notpad">Notpad</a> - Cross-platform rich text editor with a notepad interface, enhanced with advanced features beyond standard notepad.</li>
+<li><a href="https://github.com/tywil04/parchment">Parchment</a> - Simple local-only cross-platform text editor with basic markdown support.</li>
+<li><a href="https://yibiao.fun/">Semanmeter</a> ![closed source] - OCR and document conversion software.</li>
+<li><a href="https://github.com/opensourcecheemsburgers/ubiquity">Ubiquity</a> - Cross-platform markdown editor; built with Yew, Tailwind, and DaisyUI.</li>
+<li><a href="https://github.com/HuLaSpark/HuLa">HuLa</a> - HuLa is a desktop instant messaging app built on Tauri+Vue3 (not just instant messaging).</li>
+<li><a href="https://github.com/Gram-ax/gramax">Gramax</a> - Free, open-source application for creating, editing, and publishing Git-driven documentation sites using Markdown and a visual editor.</li>
+</ul>
+<h3 id="productivity"><a class="header" href="#productivity">Productivity</a></h3>
+<ul>
+<li><a href="https://github.com/HubertK05/banban">Banban</a> - Kanban board with tags, categories and markdown support.</li>
+<li><a href="https://github.com/nomandhoni-cs/blink-eye">Blink Eye</a> - A minimalist eye care reminder app to reduce eye strain, featuring customizable timers , full-screen popups, and screen-on-time.</li>
+<li><a href="https://github.com/rajatkulkarni95/buildlog">BuildLog</a> - Menu bar for keeping track of Vercel Deployments.</li>
+<li><a href="https://constito.com">Constito</a> ![closed source] ![paid] - Organize your life so that no one else sees it.</li>
+<li><a href="https://github.com/0-don/clippy">Clippy</a> - Clipboard manager with sync &amp; encryption.</li>
+<li><a href="https://github.com/GHGHGHKO/dalgona">Dalgona</a> - GIF meme finder app for Windows and macOS.</li>
+<li><a href="https://github.com/ayangweb/EcoPaste/tree/master">EcoPaste</a> - Powerful open-source clipboard manager for macOS, Windows and Linux(x11) platforms.</li>
+<li><a href="https://floweb.cn/en">Floweb</a> ![closed source] ![paid] - Ultra-lightweight floating desktop pendant that transforms web pages into web applications, supporting features such as pinning and transparency, multi-account, auto-refresh.</li>
+<li><a href="https://github.com/mikaelkristiansson/gitbar">GitBar</a> - System tray app for GitHub reviews.</li>
+<li><a href="https://github.com/Gitification-App/gitification">Gitification</a> - Menu bar app for managing Github notifications.</li>
+<li><a href="https://github.com/codad5/google-task-tauri">Google Task Desktop Client</a> - Google Task Desktop Client</li>
+<li><a href="https://github.com/EastSun5566/hackdesk">HackDesk</a> - Hackable HackMD desktop application.</li>
+<li><a href="https://jasnoo.com">jasnoo</a> ![closed source] ![paid] - Desktop software designed to help you solve problems, prioritise daily actions and focus</li>
+<li><a href="https://github.com/trobonox/kanri">Kanri</a> - Cross-platform, offline-first Kanban board app with a focus on simplicity and user experience.</li>
+<li><a href="https://github.com/zxh3/kianalol">Kianalol</a> - Spotlight-like efficiency tool for swift website access.</li>
+<li><a href="https://kunkun.sh/">Kunkun</a> - Cross-platform, extensible app launcher. Alternative to Alfred and Raycast.</li>
+<li><a href="https://github.com/linksaas/desktop">Link Saas</a> - Efficiency tools for software development teams.</li>
+<li><a href="https://github.com/Brendonovich/macrograph">MacroGraph</a> - Visual programming for content creators.</li>
+<li><a href="https://github.com/ljreaux/meadtools-desktop">MeadTools</a> - All-in-one Mead, Wine, and Cider making calculator.</li>
+<li><a href="https://github.com/Gnarus-G/mynd">mynd</a> - Quick and very simple todo-list management app for developers that live mostly in the terminal.</li>
+<li><a href="https://github.com/mrjackwills/obliqoro">Obliqoro</a> - Oblique Strategies meets Pomodoro.</li>
+<li><a href="https://github.com/PasteBar/PasteBarApp">PasteBar</a> - Limitless, Free Clipboard Manager for Mac and Windows. Effortless management of everything you copy and paste.</li>
+<li><a href="https://github.com/g07cha/pomodoro">Pomodoro</a> - Time management tool based on Pomodoro technique.</li>
+<li><a href="https://github.com/0PandaDEV/Qopy">Qopy</a> - The fixed Clipboard Manager for Windows and Mac.</li>
+<li><a href="https://github.com/probablykasper/remind-me-again">Remind Me Again</a> - Toggleable reminders app for Mac, Linux and Windows.</li>
+<li><a href="https://github.com/jam53/Takma">Takma</a> - Kanban-style to-do app, fully offline with support for Markdown, labels, due dates, checklists and deep linking.</li>
+<li><a href="https://yuanbao.tencent.com/">Tencent Yuanbao</a> ![closed source] - Tencent Yuanbao is an AI application based on Tencent Hunyuan large model. It is an all-round assistant that can help you with writing, painting, copywriting, translation, programming, searching, reading and summarizing.</li>
+<li><a href="https://danielulrich.com/en/timechunks/">TimeChunks</a> ![closed source] - Time tracking for freelancers without timers and HH:MM:SS inputs.</li>
+<li><a href="https://github.com/SeakMengs/WindowPet">WindowPet</a> - Overlay app that lets you have adorable companions such as pets and anime characters on your screen.</li>
+<li><a href="https://zawee.net">Zawee</a> ![closed source] - Experience the synergy of Kanban boards, note-taking, file sharing, and more, seamlessly integrated into one powerful application.</li>
+<li><a href="https://github.com/ghost-him/ZeroLaunch-rs">ZeroLaunch-rs</a> - Focuses on app launching with error correction, supports full/pinyin/abbreviation searches. Features customizable interface and keyboard shortcuts.</li>
+</ul>
+<h3 id="search"><a class="header" href="#search">Search</a></h3>
+<ul>
+<li><a href="http://coco.rs/">Coco AI</a> - 🥥 Coco AI unifies all your enterprise applications and data—Google Workspace, Dropbox, GitHub, and more—into one powerful search and Gen-AI chat platform.</li>
+<li><a href="https://github.com/harana/search">Harana</a> - Search your desktop and 300+ cloud apps, instantly.</li>
+<li><a href="https://github.com/a5huynh/spyglass">Spyglass</a> - Personal search engine that indexes your files/folders, cloud accounts, and whatever interests you on the internet.</li>
+</ul>
+<h3 id="security"><a class="header" href="#security">Security</a></h3>
+<ul>
+<li><a href="https://github.com/Levminer/authme">Authme</a> - Two-factor (2FA) authentication app for desktop.</li>
+<li><a href="https://codeberg.org/Calciumdibromid/CaBr2">Calciumdibromid</a> - Generate "experiment wise safety sheets" in compliance to European law.</li>
+<li><a href="https://github.com/defguard/client">Defguard</a> - WireGuard VPN destkop client with Two-factor (2FA) authentication.</li>
+<li><a href="https://github.com/angeldollface/gluhny">Gluhny</a> A graphical interface to validate IMEI numbers.</li>
+<li><a href="https://github.com/OneKeePass/desktop">OneKeePass</a> - Secure, modern, cross-platform and KeePass compatible password manager.</li>
+<li><a href="https://github.com/padloc/padloc">Padloc</a> - Modern, open source password manager for individuals and teams.</li>
+<li><a href="https://github.com/kunalsin9h/secops">Secops</a> - Ubuntu Operating System security made easy.</li>
+<li><a href="https://github.com/pwltr/tauthy">Tauthy</a> - Cross-platform TOTP authentication client.</li>
+<li><a href="https://github.com/fosslife/truthy/">Truthy</a> - Modern cross-platform 2FA manager with tons of features and a beautiful UI.</li>
+</ul>
+<h3 id="social-media"><a class="header" href="#social-media">Social media</a></h3>
+<ul>
+<li><a href="https://github.com/SpikeHD/Dorion">Dorion</a> - Light weight third-party Discord client with support for plugins and themes.</li>
+<li><a href="https://github.com/iohzrd/identia">Identia</a> - Decentralized social media on IPFS.</li>
+<li><a href="https://github.com/probablykasper/kadium">Kadium</a> - App for staying on top of YouTube channel uploads.</li>
+<li><a href="https://git.kaki87.net/KaKi87/scraper-instagram-gui-desktop">Scraper Instagram GUI Desktop</a> - Alternative Instagram front-end for desktop.</li>
+</ul>
+<h3 id="utilities"><a class="header" href="#utilities">Utilities</a></h3>
+<ul>
+<li><a href="https://github.com/dhextras/age-timer-tauri">AgeTimer</a> - Desktop utility that counts your age in real-time.</li>
+<li><a href="https://github.com/auto-wallpaper/auto-wallpaper">Auto Wallpaper</a> - Automatically generates 4K wallpapers based on user's location, weather, and time of day or any custom prompts.</li>
+<li><a href="https://github.com/bewcloud/bewcloud-desktop">bewCloud Desktop Sync</a> - Desktop sync app for bewCloud, a simpler alternative to Nextcloud and ownCloud.</li>
+<li><a href="https://github.com/dunkbing/typeview">TypeView - KeyStroke Visualizer</a> - Visualizes keys pressed on the screen and simulates the sound of mechanical keyboard.</li>
+<li><a href="https://github.com/billyjacoby/browsernaut">Browsernaut</a> - Browser picker for macOS.</li>
+<li><a href="https://github.com/lesterhnu/clipboard">Clipboard Record</a> - Record Clipboard Content.</li>
+<li><a href="https://github.com/dwall-rs/dwall">Dwall</a> - Change the Windows desktop and lock screen wallpapers according to the sun's azimuth and altitude angles, just like on macOS.</li>
+<li><a href="https://fancyapps.com/freebies/">Fancy Screen Recorder</a> ![closed source] - Record entire screen or a selected area, trim and save as a GIF or video.</li>
+<li><a href="https://github.com/SticksDev/FanslySync">FanslySync</a> - Sync your Fansly data with 3rd party applications, securely!</li>
+<li><a href="https://github.com/spieglt/flyingcarpet">Flying Carpet</a> - File transfer between Android, iOS, Linux, macOS, and Windows over auto-configured hotspot.</li>
+<li><a href="https://github.com/hiql/get-unique-id-app">Get Unique ID</a> - Generates unique IDs for you to use in debugging, development, or anywhere else you may need a unique ID.</li>
+<li><a href="https://github.com/thewh1teagle/happy">Happy</a> - Control HappyLight compatible LED strip with ease.</li>
+<li><a href="https://github.com/zhongweili/imagenie">Imagenie</a> - AI-powered desktop app for stunning image transformations</li>
+<li><a href="https://github.com/dubisdev/key-on-screen">KoS - Key on Screen</a> - Show in your screen the keys you are pressing.</li>
+<li><a href="https://github.com/ChurchTao/Lanaya">Lanaya</a> - Easy to use, cross-platform clipboard management.</li>
+<li><a href="https://github.com/thewh1teagle/lingo">Lingo</a> - Translate offline in every language on every platform.</li>
+<li><a href="https://github.com/linka-app/linka">Linka!</a> - AI powered, easy to use, cross-platform bookmark management tool.</li>
+<li><a href="https://github.com/Sushants-Git/locus">Locus</a> - Intelligent activity tracker that helps you understand and improve your focus habits.</li>
+<li><a href="https://github.com/idootop/MagicMirror">MagicMirror</a> - Instant AI Face Swap, Hairstyles &amp; Outfits — One click to a brand new you!</li>
+<li><a href="https://github.com/Akylas/mbview-rs">MBTiles Viewer</a> - MBTiles Viewer and Inspector.</li>
+<li><a href="https://github.com/ZaneH/metronome">Metronome</a> - Visual metronome for Windows, Linux and macOS.</li>
+<li><a href="https://github.com/thewh1teagle/mobslide">Mobslide</a> - Turn your smartphone into presentation remote controller.</li>
+<li><a href="https://github.com/Abdenasser/neohtop">NeoHtop</a> - Cross platform system monitoring tool with a model look and feel.</li>
+<li><a href="https://overlayed.dev">Overlayed</a> - Voice chat overlay for Discord.</li>
+<li><a href="https://pachtop.com/">Pachtop</a> - Modern Cross-platform system monitor 🚀</li>
+<li><a href="https://github.com/hiql/passwords-app">Passwords</a> - A random password generator.</li>
+<li><a href="https://github.com/zhanglun/pavo">Pavo</a> - Cross-platform desktop wallpaper application.</li>
+<li><a href="https://github.com/angeldollface/peekaboo">Peekaboo</a> A graphical interface to display images.</li>
+<li><a href="https://github.com/kkoomen/pointless">Pointless</a> - Endless drawing canvas.</li>
+<li><a href="https://github.com/pot-app/pot-desktop">Pot</a> - Cross-platform Translation Software.</li>
+<li><a href="https://github.com/zhbhun/rmbg">RMBG</a> - Cross-platform image background removal tool.</li>
+<li><a href="https://github.com/Recordscript/recordscript">Recordscript</a> - Record &amp; transcribe your online meetings, or subtitle your files. Cross-platform local-only screen recorder &amp; subtitle generator.</li>
+<li><a href="https://github.com/RoundedCorners/Application">Rounded Corners</a> - Rounded Corners app for Windows.</li>
+<li><a href="https://github.com/dubisdev/runmath">RunMath</a> - Keyboard-first calculator for Windows.</li>
+<li><a href="https://github.com/Nicify/sensi-mouse">SensiMouse</a> - Easily change macOS system-wide mouse sensitivity and acceleration settings.</li>
+<li><a href="https://github.com/SlimeVR/SlimeVR-Server">SlimeVR Server</a> - Server app for SlimeVR, facilitating full-body tracking in virtual reality.</li>
+<li><a href="https://github.com/AlexProgrammerDE/SoulFireClient">SoulFire</a> - Advanced Minecraft Server-Stresser Tool. Launch bot attacks on your servers to measure performance.</li>
+<li><a href="https://github.com/breadthe/sd-buddy">Stable Diffusion Buddy</a> - Desktop UI companion for the self-hosted Mac version of Stable Diffusion.</li>
+<li><a href="https://github.com/cablehead/stacks">Stacks</a> - Modern and capable clipboard manager for macOS. Seeking Linux and Windows contributions.</li>
+<li><a href="https://github.com/s00d/switchshuttle">SwitchShuttle</a> - Cross-platform system tray application that allows users to run predefined commands in various terminal applications.</li>
+<li><a href="https://github.com/sprout2000/tauview">Tauview</a> - Minimalist image viewer for macOS and Linux based on Leaflet.js.</li>
+<li><a href="https://github.com/acarl005/toerings">ToeRings</a> - Conky Seamod inspired system monitor app.</li>
+<li><a href="https://toolcat.app">Toolcat</a> ![closed source] - All-in-one toolkit for developers and creators.</li>
+<li><a href="https://github.com/dubisdev/trayfier">TrayFier</a> - Supercharge your Windows Tray with links, files, executables...</li>
+<li><a href="https://github.com/openscopeproject/TrguiNG">TrguiNG</a> - Remote GUI for Transmission torrent daemon.</li>
+<li><a href="https://github.com/ParthJadhav/verve">Verve</a> - Launcher for accessing and opening applications, files and documents.</li>
+<li><a href="https://thewh1teagle.github.io/vibe">Vibe</a> - Transcribe audio or video in every language on every platform.</li>
+<li><a href="https://github.com/zeet2020/wallpaper-changer-tauri">Wallpaper changer</a> - Simple wallpaper changer app.</li>
+<li><a href="https://usezap.sh/?ref=awesometauri">Zap</a> ![closed source] - macOS spotlight-like dock that makes navigating apps convenient.</li>
+<li><a href="https://sofast.fun">Sofast</a> ![closed source] - A cross-platform Raycast-like app.</li>
+</ul>
 
                     </main>
 

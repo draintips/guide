@@ -47,3 +47,5 @@
 - [Blogification](./chapter_3.md)
 - [References](./chapter_4.md)
     - [Cargo](nested/sub-chapter_4.Cargo.md)
+    - [Tauri](nested/sub-chapter_4.Tauri.md)
+

@@ -15,7 +15,9 @@
 ### Python
 
 ### Rust
+
 [Rust Package Mgmt and Cargo](nested/sub-chapter_4.1.md)
+[Tauri](nested/sub-chapter_4.Cargo.md)
 
 ### Typescript
 
