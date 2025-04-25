@@ -1,4 +1,4 @@
-[MdBook](https://rust-lang-nursery.GitHub.io/mdBook/) is a tool for creating and **improving** books; mdBook uses Markdown files, making mdBook the best tool to really READ important Reference content. Here's why:
+*A meta note about this repository ... and [mdBooks](https://rust-lang-nursery.GitHub.io/mdBook/) as a tool for creating and **improving** books; mdBook uses Markdown files, making mdBook the best tool to really READ important Reference content. Here's why:
 ### Humans learn best by teaching and teach best by learning.
 
 We need to READ, but we no longer need to memorize. **Our future selves will be taught by our current selves.**
