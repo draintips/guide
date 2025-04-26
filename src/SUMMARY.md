@@ -45,7 +45,8 @@
     - [References](nested/sub-chapter_2.G.md)
     - [Big Compute](nested/sub-chapter_2.H.md)
 - [Blogification](./chapter_3.md)
-- [References](./chapter_4.md)
+- [ML/AI Ops References](./chapter_4.md)
+    - [crates.io](nested/sub-chapter_4.crates.md)
     - [Cargo](nested/sub-chapter_4.Cargo.md)
     - [Tauri](nested/sub-chapter_4.Tauri.md)
 
