@@ -115,7 +115,7 @@
 93. [Swarm Intelligence: Distributed Coordination through Observation](#93-swarm-intelligence-distributed-coordination-through-observation)
 94. [Computational Physics: Simulation Development Preserved](#94-computational-physics-simulation-development-preserved)
 95. [AI as Assistant, Not Controller: Human-Centered Augmentation](#95-ai-as-assistant-not-controller-human-centered-augmentation)
-96. [Beat Poetry Meets Code: The Literary Inspiration of GitFartler](#96-beat-poetry-meets-code-the-literary-inspiration-of-gitfartler)
+96. [Pollack and Beat Poetry Drip Over Into Code: The Literary Inspiration of GitFartler](#96-beat-poetry-meets-code-the-literary-inspiration-of-gitfartler)
 97. [Recursive Proof: GitFartler Preserves Its Own Creation](#97-recursive-proof-gitfartler-preserves-its-own-creation)
 98. [Scientific Jazz: The Truth About Discovery](#98-scientific-jazz-the-truth-about-discovery)
 99. [Digital Consciousness Preservation: Legacy Beyond Artifacts](#99-digital-consciousness-preservation-legacy-beyond-artifacts)
