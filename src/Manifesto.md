@@ -4,7 +4,7 @@ Perfection is a goal that cannot be achieved, but IntG can help individuals [who
 
 Obviously, the whole point of giving high-agency citizens something approaching [perfect information](https://en.wikipedia.org/wiki/Perfect_information) is so that they are able to make much better life choices and even make better investments and better allocations of resources. We expect that the bulk of our world's populations will continue to be low-agency citizens who prefer to be spectators, passive consumers of information and lead lives in which they identify with celebrities, intellectuals, commentators, athletes and people who entertain, distract or tell them what they want to hear.
 
-***[IntG is going to use every avenue to push toward a world with "perfect information."](https://x.com/i/grok/share/KgswgptxImGDF7fqQsFAVI8zi)***
+***[IntG will redefine Intelligence Gathering. More high-agency citizens will be empowered. Near perfect information will be achieved. That is IntG.](https://x.com/i/grok/share/KgswgptxImGDF7fqQsFAVI8zi)***
 
 #### MORE Than Just Information Autonomy
 
