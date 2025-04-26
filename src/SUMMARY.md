@@ -48,5 +48,6 @@
 - [ML/AI Ops References](./chapter_4.md)
     - [crates.io](nested/sub-chapter_4.crates.md)
     - [Cargo](nested/sub-chapter_4.Cargo.md)
+    - [Rust Language](nested/sub-chapter_4.Rust-lang.md)
     - [Tauri](nested/sub-chapter_4.Tauri.md)
 
