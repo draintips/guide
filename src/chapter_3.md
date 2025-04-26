@@ -28,7 +28,7 @@
 14. Building Sidecar Features for Python Integration in Tauri
 15. LLM Integration in Desktop Applications with Tauri
 
-## [C. Rust Programming for ML/AI Development](nested/sub-chapter_3.C.md)
+## C. [Rust Programming for ML/AI Development](nested/sub-chapter_3.C.md)
 1. Why Rust is Becoming the Language of Choice for High-Performance ML/AI Ops
 2. The Rise of Polars: Rust's Answer to Pandas for Data Processing
 3. Zero-Cost Abstractions in Rust: Performance Without Compromise
