@@ -1,4 +1,6 @@
-*A meta note about this repository ... and [mdBooks](https://rust-lang-nursery.GitHub.io/mdBook/) as a tool for creating and **improving** books; mdBook uses Markdown files, making mdBook the best tool to really READ important Reference content.* 
+*A meta note about this repository ... and [mdBooks](https://rust-lang-nursery.GitHub.io/mdBook/) as a tool for creating and **improving** books.*
+
+*mdBook uses Markdown files, making mdBook the best tool to make notes, revisions, clarifications.* **The best way to really READ important Reference content is to [re-]WRITE IT.**
 
 Here's why:
 
