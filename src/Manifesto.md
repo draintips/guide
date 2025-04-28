@@ -2,7 +2,7 @@
 
 **Service businesses are first, foremost about serving the CUSTOMER. Service businesses are not really about technology ... sure technology helps to provide better service ... but pretty much everybody has or can get the technology.** 
 
-*Be SURE to let that sink in.* Customer information, especially in the trades, is UNIQUE and especially valuable for offering superior service and finding better solutions for customers.
+*Be SURE to let that sink in.* **Don't focus on chasing technology, FOCUS on serving the customer.** Customer information, especially in the trades, is UNIQUE and especially valuable for offering superior service and finding better solutions for customers. *Pretty much everybody has or can get the technology; technology is not really a differentiator* ... ***manaical focus on the customer has to be your differentiator!*** 
 
 **Going BEYOND the standard technical information, this process is all about radically improving customer service by using SPECIFIC knowledge about building history, customer preferences and existing installations or the unique information which the Plumbing, HVAC, Sewer tradesman or company has on their clients' needs.**
 
