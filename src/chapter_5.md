@@ -1,14 +1,6 @@
 # Develop Locally, DEPLOY TO THE CLOUD
 
-*That's the strategy we use to develop agentic AI for the Plumbing, HVAC, Sewer trade.*
-
-**Going BEYOND the standard technical information, this process is all about radically improving customer service by using SPECIFIC knowledge about building history, customer preferences and existing installations or the unique information which the Plumbing, HVAC, Sewer tradesman or company has on their clients' needs.**
-
-Customer information is UNIQUE and especially valuable for offering superior service and finding better solutions for customers.
-
-The key insight behind this ML/AI Ops strategy is that you can wrangle data efficiently locally, but you can also LEARN a lot **inexpensively** by failing small, failing locally. For example, you can prototype really complex ML/AI Ops data pipelines -- monkeying around is one thing, but there's probably not a good reason to own the **really big** Big Compute horsepower when you're dev'ing systems. 
-
-Sure, if your business model is already throwing off cash and supports owning the monster compute farm ... that's a different story -- but, by THEN you going to be, first of all, much more highly compensated and not worried about leveling up your skills in ML/AI Ops, probably managing big teams of devs and your thriving business justifies gigantic budgets for compute so that you are reading this content. 
+***Develop Locally, DEPLOY TO THE CLOUD*** is the strategy we advocate when to assist people who are developing PERSONALIZED or business-specific agentic AI for the Plumbing, HVAC, Sewer trade.*
 
 ***This content is for people looking to LEARN ML/AI Op principles, practically*** ... with real issues, real systems ... but WITHOUT enough budget *to just buy the big toys you want.*
 
