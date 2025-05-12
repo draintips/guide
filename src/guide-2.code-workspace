@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../HROSdev.github.io"
+		},
+		{
+			"path": "../../nanotoolworks.github.io"
+		},
+		{
+			"name": "rheumlife.github.io",
+			"path": "../../rheumlife.github.io"
+		},
+		{
+			"path": "../../ancientguy.github.io"
+		}
+	],
+	"settings": {}
+}
