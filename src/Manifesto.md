@@ -4,9 +4,9 @@ This backgrounder is on current State of AI software for plumbing, HVAC, sewer a
 
 **KEY PRINCINPLE** *Your business does not exist in order to fit nicely into the mold of some software provider ... or to be trapped in the mindset and way of doing business that your software vendor uses ...  for the same reason that your business does exist in order to be nothing more than a ______ Dealer or pushing high-margin product for an OEM.  Serving your customers is the reason for your service business's existence!*
 
-**Don't focus too much on chasing technology ... use what works practically ... but FOCUS instead on serving the customer.**
+**Don't focus too much on chasing technology ... use what works practically ... FOCUS instead on serving the customer, rather than your toolchain providers**
 
-We help tradesmen develop **their own** agentic AI for the Plumbing, HVAC, Sewer trade.  Service businesses are first, foremost about serving the CUSTOMER. Service businesses are not really about technology ... sure technology helps to provide better service ... but pretty much everybody has access to or can get the technology.
+The point of DRAIN.tips is to help tradesmen and prosumers handyman-types develop **their own** agentic AI for the Plumbing, HVAC, Sewer trade.  Service businesses are first, foremost about serving the CUSTOMER. Service businesses are not really about technology ... sure technology helps to provide better service ... but pretty much everybody has access to or can get the technology.
 
 Deep customer information, especially in the trades, where a tradesman will **know** everything about a customer's plumbing, HVAC, sewer systems better than the customer knows those is system gives the trade business UNIQUE, irreplaceable and therefore especially valuable for offering superior service and finding better solutions for customers. Pretty much everybody has or can get off-the-shelf technology; technology is not really a differentiator. **Being able to BETTER ANTICIPATE your customer's needs for plumbing, HVAC, sewer needs is the reason to DEVELOP or EXTEND your own software components.**   
 
